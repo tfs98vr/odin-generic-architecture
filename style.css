@@ -65,11 +65,15 @@ h1 {
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: roboto, sans-serif;
+    font-weight: 900;
+    gap: 20px;
 }
 
 .gal-img {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 
 .house {
@@ -77,9 +81,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: roboto, sans-serif;
+    font-weight: 600;
+    color: black;
+    gap: 10px;
 }
 
 .house img {
     width: 90px;
     height: 90px;
+    border-radius: 10px;
 }
