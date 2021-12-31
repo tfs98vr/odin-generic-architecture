@@ -73,7 +73,7 @@ h1 {
 .gal-img {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 70px;
 }
 
 .house {
@@ -85,10 +85,23 @@ h1 {
     font-weight: 600;
     color: black;
     gap: 10px;
+    width: 110px;
 }
 
 .house img {
     width: 90px;
     height: 90px;
     border-radius: 10px;
+}
+
+.container3 {
+    margin-left: auto;
+    padding: 35px 60px 35px 0;
+    font-family: roboto, sans-serif
+}
+
+.container3 p{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 800;
 }
