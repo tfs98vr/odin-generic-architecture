@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: #f8fcf7;
 }
 
 .header {
@@ -44,6 +45,16 @@ a {
     justify-content: space-around;
 }
 
+.container1 button {
+    background-color: #f7c783;
+    color: black;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px double #f7c783;
+}
+
 .container1 img {
    height: 250px;
    width: 400px;
@@ -68,6 +79,8 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 900;
     gap: 20px;
+    background-color: #f8fcf7;
+    padding-bottom: 35px;
 }
 
 .gal-img {
@@ -95,13 +108,44 @@ h1 {
 }
 
 .container3 {
-    margin-left: auto;
     padding: 35px 60px 35px 0;
-    font-family: roboto, sans-serif
+    font-family: roboto, sans-serif;
+    background-color: #327053;
 }
 
-.container3 p{
-    text-align: right;
+.container3 i {
+    margin-left: auto;
     font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+.container3 p {
+    color: #fff0b8;
+    text-align: right;
     font-weight: 800;
+    font-size: 18px;
+}
+
+.container4 {
+    height: 130px;
+    display: flex;
+    background-color: #f7c783;
+    margin: 35px 60px 35px 60px;
+    padding: 25px 50px 25px 50px;
+    align-items: center;
+    border-radius: 15px;
+    font-family: roboto, sans-serif;
+}
+
+.texto4 {
+   flex-grow: 4;
+}
+
+.container4 button {
+   flex-grow: 1;
+   padding: 8px;
+   background-color: #f7c783;
+   border: 3px solid black;
+   border-radius: 15px;
 }
